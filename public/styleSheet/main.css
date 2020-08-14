@@ -1,0 +1,113 @@
+/* layout styles*/
+
+body{
+  background: black;
+  margin: 2.5%;
+}
+
+.loginForm{
+  margin: auto;
+  align-content: center;
+}
+
+ input {
+   display: block;
+   margin: auto;
+}
+
+textarea {
+  display: block;
+  width: 60%;
+  height: 200px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+header {
+  text-align: center;
+  color: white;
+
+}
+
+h2{
+  margin: auto;
+  text-align: center;
+}
+
+li{
+  float: left;
+  display: block;
+  list-style-type: none;
+  margin-left: 0;
+  margin-top: 3%;
+  margin-right: 1.639%;
+  width: 49.18%;
+  background: white;
+  max-height: 200px;
+  overflow: hidden;
+
+}
+
+li:nth-child(2n){
+  margin-right: 0;
+}
+.new{
+  display: block;
+  clear: both;
+  text-align: center;
+
+}
+
+.out{
+  display: block;
+  clear: both;
+  text-align: center;
+
+}
+ul {
+  padding: 0;
+}
+
+a {
+  color: white;
+}
+
+li a{
+  text-decoration: inherit;
+  color: black;
+}
+label{
+  color: white;
+  margin-bottom: 5px;
+}
+
+.loginForm input{
+  width: 66.22%;
+}
+
+.loginForm input[type="submit"] {
+  margin-top: 10%;
+  width: auto;
+}
+
+ a.signup{
+   clear: both;
+ }
+
+/* typography styles*/
+header{
+  font-family: cursive;
+  font-size: 2em;
+}
+ul{
+  font-family: "Times New Roman", times, serif;
+}
+body{
+  font-size: 2em;
+}
+textarea{
+  font-size: 1em;
+}
+input{
+  font-size: 1em;
+}
